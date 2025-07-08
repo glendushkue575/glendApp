@@ -1,0 +1,22 @@
+@use "design-system";
+
+.toasts-container {
+  position: fixed;
+  inset-block-end: 16px;
+  inset-inline-start: 16px;
+  inset-inline-end: 16px;
+  z-index: design-system.$toast-z-index;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: min(90%, calc(25ch));
+}
+
+.toasts-container__banner-base {
+    border-radius: 8px;
+}
+
+.toast-text {
+    word-break: break-word;
+}
