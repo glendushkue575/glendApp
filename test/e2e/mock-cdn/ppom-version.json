@@ -1,0 +1,5 @@
+[
+	{"name":"stale","chainId":"0x38","version":"0.0.66","checksum":"939cfdb932942bc70f9073fd28bbfc40d1d3d5852d83818995e9e22043c2f43f","signature":"8ff...a7b", "hashSignature": "...", "filePath": "..."},
+	{"name":"stale","chainId":"0x1",  ... },
+	...
+]
