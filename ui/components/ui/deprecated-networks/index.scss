@@ -1,0 +1,20 @@
+@use "design-system";
+
+.deprecated-networks {
+  max-width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1050;
+
+  @include design-system.screen-sm-min {
+    width: 85vw;
+  }
+
+  @include design-system.screen-md-min {
+    width: 80vw;
+  }
+
+  @include design-system.screen-lg-min {
+    width: 62vw;
+  }
+}
